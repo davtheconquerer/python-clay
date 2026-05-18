@@ -1,0 +1,29 @@
+# Shared libraries (non-Windows are built, not bundled)
+libclay.so
+libclay.dylib
+
+# Build artifacts
+*.o
+*.exe
+sizeof_check*
+!python_clay/*.dll
+
+# Output images
+clay_render.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# pip install artifacts
+*.whl
