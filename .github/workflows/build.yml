@@ -55,7 +55,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: "clay.*"
+          pattern: "*clay*"
           merge-multiple: true
 
       - name: Create Release
